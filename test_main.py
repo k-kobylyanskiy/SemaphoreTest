@@ -9,3 +9,6 @@ def test_sub():
 
 def test_mul():
     assert main.mul(2, 2) == 4
+
+def test_div():
+    assert main.div(16, 4) == 4
